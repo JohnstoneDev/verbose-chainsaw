@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Poppins',sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #F1F5F8;
+}
+
+
+*{
+  box-sizing : border-box;
+  padding : 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.Main-App{
+  max-height: 90vh;
+  max-width : 90vw;
+}
+
+for @media and max-width(350px) {
+  .main-app{
+    min-width : 50vw;
+    min-height: 50vh;
+  }
+}
+
+.nav-btn{
+  padding: .5em;
+  margin-left:2.5em;
+  justify-content:center;
+  border-style:none;
+  border-radius: 5px;
+  text-decoration:none;
+  font-size :2em;
+  color:#C59D5F;
+  background-color: #F1F5F8;
+}
+
+.navigation-buttons{
+ padding :1.5em;
+ margin:0 20%;
+ justify-content:center;
+ align-items:center;
+ display:grid;
+ grid-template-columns: repeat(4,120px);
+ column-gap:2px;
+ font-size:.5em;
+}
+
+.nav-btn:hover {
+  background-color: #C59D5F;
+  cursor:pointer;
+  color : white;
+}
+
+img{
+  height : 25vh;
+  width : 20vw;
+  object-fit: cover;
+  border : 2px solid #C59D64;
+  border-radius : 2px;
+}
+
+.menu{
+  display : flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items:center;
+  margin : 0 20%;
+}
+
+
+.all-foods{
+  padding: 1.5em;
+  margin: 0 10%;
+}
+
+.menu section{
+  display : flex;
+  align-items: center;
+  justify-content : space-between
+}
+
+.App-header {
+  color : #172D65;
+  margin-left:0.2em;
+  text-align : center;
+  padding : 0.5em;
+  margin-bottom : 0;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.image-div{
+  padding: .5em;
+}
+
+h4{
+  color : #172D65;
+}
+
+h5{
+  color : #C59D64;
+}
